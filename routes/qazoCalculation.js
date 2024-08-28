@@ -10,7 +10,7 @@ const home = require('../keyboards/home');
                 reply_markup: {
                     keyboard: [
                         [{ text: "Erkak" }, { text: "Ayol" }],
-                                   [{text: "⬅️Ortga."}],
+                                   [{text: "⬅️Ortga⬅️"}],
                     ],
                     resize_keyboard: true,
                     one_time_keyboard: true,
@@ -76,7 +76,7 @@ const home = require('../keyboards/home');
 
             });
         }
-        if (text === "⬅️Ortga.") {
+        if (text === "⬅️Ortga⬅️") {
             const option = {
            reply_to_message_id: msg.message_id,
            parse_mode: "markdown",
